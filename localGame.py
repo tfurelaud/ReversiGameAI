@@ -11,7 +11,7 @@ players = []
 player1 = PlayerPVS.myPlayer()
 player1.newGame(b._BLACK)
 players.append(player1)
-player2 = PlayerPVS.myPlayer()
+player2 = RandomPlayer.myPlayer()
 player2.newGame(b._WHITE)
 players.append(player2)
 
